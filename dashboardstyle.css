@@ -26,7 +26,7 @@ html[data-theme="dark"] .row-actions {
 
 html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=color], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=date], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=datetime-local], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=datetime], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=email], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=month], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=number], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=password], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=search], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=tel], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=text], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=time], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=url], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=week], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent select, html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent textarea {
     background-color: #fff !important;
-    color: var(--uip-border-color) !important;
+    color: #292c36 !important;
     border: none !important ;
 }
 
@@ -55,7 +55,7 @@ html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=ur
 html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent select::placeholder, html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent textarea::placeholder, 
 html[data-theme="dark"] .editor-styles-wrapper h1, html[data-theme="dark"] .editor-styles-wrapper p, html[data-theme="dark"] .editor-styles-wrapper span, html[data-theme="dark"] .editor-styles-wrapper label, 
 html[data-theme="dark"] .editor-styles-wrapper h2 
-{ color: var(--uip-border-color) !important; }
+{ color: #292c36 !important; }
 
 .woocommerce-reports-wide .postbox div.stats_range ul, 
 .woocommerce-reports-wide .postbox h3.stats_range ul, 
