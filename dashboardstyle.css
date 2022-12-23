@@ -1,4 +1,4 @@
-html[uip-admin-theme=true] .wrap { margin: 0; }
+html[uip-admin-theme="true"] .wrap { margin: 0; }
 
 html[data-theme="dark"] .gblocks-dashboard-header, [data-theme="dark"] .gblocks-dashboard-header, 
 html[data-theme="dark"] .gblocks-navigation, html[data-theme="dark"] a, html[data-theme="dark"] span, 
