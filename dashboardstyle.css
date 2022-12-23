@@ -1,0 +1,75 @@
+html[uip-admin-theme=true] .wrap { margin: 0; }
+
+html[data-theme="dark"] .gblocks-dashboard-header, [data-theme="dark"] .gblocks-dashboard-header, 
+html[data-theme="dark"] .gblocks-navigation, html[data-theme="dark"] a, html[data-theme="dark"] span, 
+html[data-theme="dark"] .gblocks-dashboard-intro-content {
+background: #292c36 !important;
+border: none !important;
+color: #fff !important;
+}
+
+html[data-theme="dark"] {
+background: #1e212c !important;
+border: none !important;
+color: #fff !important;
+}
+
+html[data-theme="dark"] .kinsta-page-wrapper {
+color: #fff !important;
+background: transparent !important;
+}
+
+html[data-theme="dark"] .row-actions {
+    color: #fff !important;
+    display:block !important;
+}
+
+html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=color], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=date], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=datetime-local], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=datetime], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=email], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=month], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=number], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=password], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=search], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=tel], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=text], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=time], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=url], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=week], html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent select, html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent textarea {
+    background-color: #fff !important;
+    color: var(--uip-border-color) !important;
+    border: none !important ;
+}
+
+html[data-theme="dark"] h2, [data-theme="dark"] p, [data-theme="dark"] label, html[data-theme="dark"] .wp-core-ui .button-link 
+{ color: #fff !important; }
+
+.components-text-control__input::-webkit-input-placeholder, .components-text-control__input[type=color]::-webkit-input-placeholder, 
+.components-text-control__input[type=date]::-webkit-input-placeholder, .components-text-control__input[type=datetime-local]::-webkit-input-placeholder, 
+.components-text-control__input[type=datetime]::-webkit-input-placeholder, .components-text-control__input[type=email]::-webkit-input-placeholder, 
+.components-text-control__input[type=month]::-webkit-input-placeholder, .components-text-control__input[type=number]::-webkit-input-placeholder, 
+.components-text-control__input[type=password]::-webkit-input-placeholder, .components-text-control__input[type=tel]::-webkit-input-placeholder, 
+.components-text-control__input[type=text]::-webkit-input-placeholder, .components-text-control__input[type=time]::-webkit-input-placeholder, 
+.components-text-control__input[type=url]::-webkit-input-placeholder, .components-text-control__input[type=week]::-webkit-input-placeholder, 
+html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=search], html[data-theme=dark] .components-button, 
+html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=color]::placeholder, 
+html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=date]::placeholder, 
+html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=datetime-local]::placeholder, 
+html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=datetime]::placeholder, 
+html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=email]::placeholder, 
+html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=month]::placeholder, 
+html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=number]::placeholder, 
+html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=password]::placeholder, 
+html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=search]::placeholder, html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=tel]::placeholder, 
+html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=text]::placeholder, html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=time]::placeholder, 
+html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=url]::placeholder, html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent input[type=week]::placeholder, 
+html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent select::placeholder, html[uip-admin-theme=true] body:not(.block-editor-page) #wpcontent textarea::placeholder, 
+html[data-theme="dark"] .editor-styles-wrapper h1, html[data-theme="dark"] .editor-styles-wrapper p, html[data-theme="dark"] .editor-styles-wrapper span, html[data-theme="dark"] .editor-styles-wrapper label, 
+html[data-theme="dark"] .editor-styles-wrapper h2 
+{ color: var(--uip-border-color) !important; }
+
+.woocommerce-reports-wide .postbox div.stats_range ul, 
+.woocommerce-reports-wide .postbox h3.stats_range ul, 
+.woocommerce-reports-wrap .postbox div.stats_range ul, .woocommerce-reports-wrap .postbox h3.stats_range ul, 
+.woocommerce-reports-wide .postbox .chart-legend, .woocommerce-reports-wrap .postbox .chart-legend, 
+.woocommerce-reports-wide .postbox .chart-container, .woocommerce-reports-wrap .postbox .chart-container, 
+[data-theme="dark"] .notice, [dark-theme="dark"] .error, [dark-theme="dark"] .updated, 
+.woocommerce-reports-wide .postbox div.stats_range ul li.active, .woocommerce-reports-wide .postbox h3.stats_range ul li.active, 
+.woocommerce-reports-wrap .postbox div.stats_range ul li.active, .woocommerce-reports-wrap .postbox h3.stats_range ul li.active, 
+[data-theme="dark"] .ff_form_main_nav, [data-theme="dark"] .CodeMirror, [data-theme="dark"] #templateside>ul,
+html[data-theme="dark"] .gblocks-dashboard-header, [data-theme="dark"] .gblocks-dashboard-header, 
+html[data-theme="dark"] .gblocks-navigation, html[data-theme="dark"] a, html[data-theme="dark"] span, html[data-theme="dark"] .gblocks-dashboard-intro-content, [data-theme="dark"] .kinsta-table th 
+{ background: transparent !important; background-color: transparent !important; color: #fff !important; }
+
+[data-theme=“dark”] .block-editor-block-contextual-toolbar .components-button {
+color: #fff !important;
+}
